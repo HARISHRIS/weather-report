@@ -1,0 +1,401 @@
+/* Reset some default styles for the body and header */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the logo */
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Style the navigation menu */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff; /* Menu item text color */
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+.nav-menu a:hover {
+    color: #ffcc00; /* Change text color on hover */
+}
+/* Style the hero section */
+.hero {
+    background: url('background-image.jpg') center/cover no-repeat; /* Use your background image */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Center the hero content */
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the hero headline */
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the subheadline */
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Style the CTA button */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffcc00; /* Button background color */
+    color: #333; /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.cta-button:hover {
+    background-color: #ffdd33; /* Change button color on hover */
+}
+/* Style the weather forecast section */
+.weather-forecast {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 60px 0;
+}
+
+/* Style the weather widget container */
+.weather-widget {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style the current weather section */
+.current-weather h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the weather information */
+.weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the temperature */
+.temperature {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style the weather icon */
+.weather-info img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Style the weather description */
+.description {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style the search bar */
+.search-bar {
+    margin-top: 30px;
+}
+
+/* Style the search input */
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Style the search button */
+.search-button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Button background color */
+    color: #333; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.search-button:hover {
+    background-color: #ffdd33; /* Change button color on hover */
+}
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.climate-section {
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9900;
+}
+
+.climate-data {
+    margin-top: 20px;
+}
+
+.climate-data label {
+    font-weight: bold;
+}
+
+.climate-data p {
+    margin: 0;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9900;
+}
+
+.about-content p {
+    margin: 0;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9900;
+}
+
+.contact-content p {
+    margin: 10px 0;
+}
+
+.contact-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-content li {
+    margin: 5px 0;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9900;
+}
+
+.contact-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-content li {
+    margin: 10px 0;
+}
+
+.contact-content i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #ff9900;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons {
+    text-align: center;
+    margin: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ff9900;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ffcc00;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #222;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.copyright-privacy {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.copyright-privacy p {
+    margin: 0;
+}
+
+.copyright-privacy a {
+    text-decoration: none;
+    color: #ff9900;
+}
+
+.copyright-privacy a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Your other styles for the website content */
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #ffcc00;
+}
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.additional-tips {
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff9900;
+}
+
+.additional-tips-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.additional-tips-content li {
+    margin: 10px 0;
+}
